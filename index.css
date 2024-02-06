@@ -1,0 +1,96 @@
+body {
+    background: url(img/background/background.png);
+}
+
+
+@font-face {
+    font-family: "A Kittens Silhouette Alen Rus";
+    src: url(fonts/A_Kittens_Silhouette_Alen_Rus.otf);
+}
+
+.first {
+    font-family: "A Kittens Silhouette Alen Rus";
+    
+}
+
+h1,
+h2,
+h3,
+h5 {
+    font-family: "A Kittens Silhouette Alen Rus";
+}
+
+
+/*Добавлен подключенный шрифт для заголовков*/
+
+h2 {
+    background-color: #9f9d9d5e;
+}
+
+ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul a {
+    color: rgb(33, 28, 35);
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(236, 65, 182, 0.53) ;
+}
+
+.products {
+    color: #484343;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.product img {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+ol {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    list-style-image: url(img/pawmarker.png);
+
+}
+
+/* Маркеры данного списка на страницах товаров отображаются в виде лапки с сердечком */
+
+
+.links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links img {
+    width: 200px;
+    height: 200px;
+    border: 1px;
+    color: black;
+}
+
+input {
+    width: 300px;
+    font-style: normal;
+    color: rgb(49, 48, 48);
+}
