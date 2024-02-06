@@ -94,3 +94,8 @@ input {
     font-style: normal;
     color: rgb(49, 48, 48);
 }
+
+input:focus {
+    background-color: rgb(225, 188, 188);
+    text-transform: capitalize;
+}
