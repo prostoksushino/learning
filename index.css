@@ -16,7 +16,8 @@ body {
 h1,
 h2,
 h3,
-h5 {
+h5,
+caption {
     font-family: "A Kittens Silhouette Alen Rus";
 }
 
@@ -93,9 +94,18 @@ input {
     width: 300px;
     font-style: normal;
     color: rgb(49, 48, 48);
+
 }
 
 input:focus {
     background-color: rgb(225, 188, 188);
     text-transform: capitalize;
 }
+
+.table1 td {
+    border: 1px solid black;
+    width: 20%;
+    height: 20px;
+    text-align: center;
+}
+
