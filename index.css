@@ -114,3 +114,10 @@ table {
 border-collapse: collapse;
 width: 70%;
 }
+
+.table2 td {
+    border: 1px solid black;
+    width: 10%;
+    height: 20px;
+    text-align: center;
+}
