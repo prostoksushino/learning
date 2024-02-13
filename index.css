@@ -55,6 +55,14 @@ a:hover {
 
 }
 
+.products p::first-letter {
+    font-size: 1.5em;
+    color:rgb(198, 1, 136);
+    font-weight: bold;
+}
+
+
+
 .product img {
     border: 1px solid black;
     width: 300px;
@@ -78,13 +86,13 @@ a:hover {
     height: 200px;
     border: 1px;
     color: black;
-    text-transform: capitalize;
 }
 
 input {
     width: 300px;
     font-style: normal;
     color: rgb(49, 48, 48);
+    text-transform: capitalize;
 
 }
 
