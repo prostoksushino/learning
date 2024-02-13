@@ -41,7 +41,7 @@ ul a {
 }
 
 a:hover {
-    color:rgba(236, 65, 182, 0.53) ;
+    color:rgba(236, 65, 182, 0.53);
 }
 
 .products {
@@ -75,6 +75,7 @@ a:hover {
     height: 200px;
     border: 1px;
     color: black;
+    text-transform: capitalize;
 }
 
 input {
@@ -86,18 +87,17 @@ input {
 
 input:focus {
     background-color: rgb(225, 188, 188);
-    text-transform: capitalize;
 }
 
 .table td {
     border: 1px solid black;
-    width: 10%;
+    width: 16.6px;
     height: 20px;
     text-align: center;
 }
 
 
-table {
+.table {
 border-collapse: collapse;
 width: 70%;
 }
