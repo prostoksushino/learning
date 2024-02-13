@@ -41,7 +41,7 @@ ul a {
 }
 
 a:hover {
-    color: rgba(236, 65, 182, 0.53);
+    color:rgba(236, 65, 182, 0.53) ;
 }
 
 .products {
@@ -62,19 +62,6 @@ a:hover {
 }
 
 
-
-ol {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    list-style-type: none;
-    list-style-image: url(img/pawmarker.png);
-
-}
-
-/* Маркеры данного списка на страницах товаров отображаются в виде лапки с сердечком */
-
-
 .links a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -90,7 +77,6 @@ ol {
     color: black;
 }
 
-/* Добавь text-transform: capitalize */
 input {
     width: 300px;
     font-style: normal;
@@ -98,18 +84,12 @@ input {
 
 }
 
-/* Удали text-transform: capitalize */
 input:focus {
     background-color: rgb(225, 188, 188);
     text-transform: capitalize;
 }
 
-/*
-    Ширины td должна быть равна 16.6 т.к. tr занимает 100% ширины таблицы 100 / 6 = 16.6 
-    При ширине 10% первые 5 ячеек занимают ширину 10%, а последняя растягивается до 100% ширины т.е. больше 10%
-    Это можно проверить нажав на F12 вкладке Elements при наведении на каждую ячейку td посмотреть её размер
-*/
-.table1 td {
+.table td {
     border: 1px solid black;
     width: 10%;
     height: 20px;
@@ -117,16 +97,8 @@ input:focus {
 }
 
 
-/* Есть класс .table примени эти стили к нему */
 table {
-    border-collapse: collapse;
-    width: 70%;
+border-collapse: collapse;
+width: 70%;
 }
 
-/* table2 td полностью повторяет стили table1 td - это значит что нужно удалить table2 td */
-.table2 td {
-    border: 1px solid black;
-    width: 10%;
-    height: 20px;
-    text-align: center;
-}
