@@ -8,11 +8,11 @@
 </head>
 
 <body>
+    <div class="container">
     <div class="header">
         <div class="first">
             <img src="img/logo/petshop_logo.png"> PETSHOP "MOHNOJOPKA"
         </div>
-
         <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="catalog.html">Каталог</a></li>
@@ -27,11 +27,11 @@
     <fieldset>
         <legend>Напишите нам</legend>
         <form action="contacts.html" method="post">
-            <input type="text" name="username" placeholder="Введите ваше имя">
+            <input class="contacts" type="text" name="username" placeholder="Введите ваше имя">
             <br>
-            <input type="email" name="email" placeholder="Введите ваш электронный адрес">
+            <input class="contacts" type="email" name="email" placeholder="Введите ваш электронный адрес">
             <br>
-            <input type="text" name="subject" placeholder="Тема сообщения">
+            <input class="contacts" type="text" name="subject" placeholder="Тема сообщения">
             <br>
 
             <label for="letter-body">Суть вашего письма:</label>
@@ -39,7 +39,7 @@
             <textarea name="letter" id="letter-body"></textarea>
             <br>
 
-            <input type="submit" value="Отправить">
+            <input class="contacts" type="submit" value="Отправить">
         </form>
     </fieldset>
 
@@ -51,7 +51,7 @@
     </p>
 
     <hr>
-    <script type="text/javascript" charset="utf-8" async
+    <script class="map" type="text/javascript" charset="utf-8" async
         src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad6b212da10738f9b58d3b94a0c908ed0768b325ade8c7aae8a497ad8926ae1a1&amp;width=1232&amp;height=657&amp;lang=ru_RU&amp;scroll=true">
     </script>
 
@@ -60,7 +60,7 @@
             &#169; "Все права защищены"
         </p>
     </div>
-
+</div>
 </body>
 
 </html>
